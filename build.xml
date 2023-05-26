@@ -123,7 +123,7 @@
   <!--Deploy
   Process-->
   <target name="deployall">
-    <sf:deploy username="${sf.trusername}" password="${sf.trpassword}" serverurl="${sf.serverurl}"
+    <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}"
       deployRoot="force-app/main/default"  logtype="Detail" />
   </target>
 
